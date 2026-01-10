@@ -6,7 +6,8 @@ import pandas as pd
 path = kagglehub.dataset_download(
     "dhrubangtalukdar/fortune-500-companies-stock-data")
 
-file_path = os.path.join(path, "fortune_500_stock_data.csv")
+folder_path = os.path.join(path, "fortune_500_stock_data")
+file_path = os.path.join(folder_path, "Apple.csv")
 df = pd.read_csv(file_path)
 
 
