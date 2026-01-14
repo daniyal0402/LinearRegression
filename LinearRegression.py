@@ -104,7 +104,12 @@ plt.title('Tomorrow Close Prediction (First 100 Test Days)')
 plt.xlabel('Time')
 plt.ylabel('Price')
 plt.legend()
-plt.show()
+# plt.show()
+plt.grid(True)
+
+# Instead of plt.show(), save the figure
+plt.savefig("prediction.png")
+print("Saved plot as prediction.png")
 
 # results = pd.DataFrame({
 #     'Model': ['Linear Regression', 'Ridge Regression'],

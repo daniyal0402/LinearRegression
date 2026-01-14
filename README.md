@@ -1,3 +1,7 @@
+**To Run
+make build
+make run
+
 ##Linear Regression Setup
 
 This Program is a setup for Linear Regression experimentation using Fortune 500 data. to use it you can select the features, target and split. i am using 80/20 split and combination of different features to see whether the theoritical strongly corelated features are also statically corelated.
